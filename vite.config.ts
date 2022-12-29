@@ -104,9 +104,9 @@ const modules: Options["modules"] = [
   },
   {
     name: "@pind/designable-react-settings-form",
-    var: "Designable.SettingsForm",
-    path: "dist/designable.settings-form.umd.production.js",
-    css: "dist/designable.settings-form.umd.production.css",
+    var: "Designable.ReactSettingsForm",
+    path: "dist/designable.react-settings-form.umd.production.js",
+    css: "dist/designable.react-settings-form.umd.production.css",
   },
 ];
 
