@@ -100,7 +100,7 @@ const modules: Options["modules"] = [
   {
     name: "@formily/antd",
     var: "Formily.Antd",
-    path: "//127.0.0.1:4173/dist/formily.antd.umd.production.js",
+    path: "dist/formily.antd.umd.production.js",
   },
   {
     name: "@pind/designable-react-settings-form",

@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ant-design/icons': ^4.0.0
-  '@formily/antd': 3.0.0-alpha.1
+  '@formily/antd': next
   '@formily/core': ^2.2.14
   '@formily/grid': ^2.2.14
   '@formily/json-schema': ^2.2.14
@@ -25,7 +25,7 @@ specifiers:
   '@types/react-is': ^17.0.3
   '@vitejs/plugin-basic-ssl': ^0.1.2
   '@vitejs/plugin-react-swc': ^3.0.0
-  antd: ^5.0.5
+  antd: ^5.1.0
   classnames: ^2.3.2
   dayjs: ^1.11.7
   less: ^3.13.1
@@ -44,8 +44,8 @@ specifiers:
 dependencies:
   '@ant-design/icons': 4.8.0_biqbaboplfbrettd7655fr4n2y
   '@pind/designable-core': 2.0.0-beta.3_bhojtfuhjan2nzh7evz4suiv3y
-  '@pind/designable-formily-antd': 2.0.0-beta.3_yxsvetqlzqmy3jrxx74ytmlygy
-  '@pind/designable-formily-setters': 2.0.0-beta.3_ixygb3jkskuhdkluaeokceixoq
+  '@pind/designable-formily-antd': 2.0.0-beta.3_e5jyf7wyi3nwe7imwj2tukwmoq
+  '@pind/designable-formily-setters': 2.0.0-beta.3_fwyft55scfrowh4il2gvsuu2ke
   '@pind/designable-formily-transformer': 2.0.0-beta.3_nowufd3hh6yexse4l665zntjii
   '@pind/designable-react': 2.0.0-beta.3_rom5kajjwincygippk4jittfse
   '@pind/designable-shared': 2.0.0-beta.3
@@ -59,7 +59,7 @@ dependencies:
   rollup-plugin-external-globals: 0.7.1
 
 devDependencies:
-  '@formily/antd': 3.0.0-alpha.1_sqmd57glgqoi6azxpisrq3gwty
+  '@formily/antd': 3.0.0-alpha.2_sqmd57glgqoi6azxpisrq3gwty
   '@formily/core': 2.2.15
   '@formily/grid': 2.2.15_typescript@4.9.4
   '@formily/json-schema': 2.2.15_typescript@4.9.4
@@ -69,7 +69,7 @@ devDependencies:
   '@formily/reactive-react': 2.2.15_5og7ynw5b2cr7vshh5loaor5du
   '@formily/shared': 2.2.15
   '@formily/validator': 2.2.15
-  '@pind/designable-react-settings-form': 2.0.0-beta.3_dhsii7n7ln6xisd2767ozs4zia
+  '@pind/designable-react-settings-form': 2.0.0-beta.3_ue4dsmovkxbsc3xvjgq6lc4q24
   '@types/glob': 7.2.0
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
@@ -414,17 +414,18 @@ packages:
     dev: true
     optional: true
 
-  /@formily/antd/3.0.0-alpha.1_sqmd57glgqoi6azxpisrq3gwty:
-    resolution: {integrity: sha512-V0HhZU/GI2KSxeKGUDkIRlRfdodxT0Iawt+Fl6kNmK5dqTkGew8AFS6twbf7tSzg2IQWcEdfU/WtSRjQCXsjGw==}
+  /@formily/antd/3.0.0-alpha.2_sqmd57glgqoi6azxpisrq3gwty:
+    resolution: {integrity: sha512-ulx9RsGz0YeBhFO8caRj6CqNpYxIydWPDUW6VXOHGO0CP705FARcSt5+SulB2DTdCMHyXduH7kN3BhDdkx4hcw==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
       '@types/react': '>=16.8.0 || >=17.0.0'
       '@types/react-dom': '>=16.8.0 || >=17.0.0'
-      antd: ^5.0.0
+      antd: ^5.1.0
       react: '>=16.8.0 || >=17.0.0'
       react-dom: '>=16.8.0'
       react-is: '>=16.8.0 || >=17.0.0'
     dependencies:
+      '@ant-design/cssinjs': 1.3.1_biqbaboplfbrettd7655fr4n2y
       '@ant-design/icons': 4.8.0_biqbaboplfbrettd7655fr4n2y
       '@dnd-kit/core': 6.0.6_biqbaboplfbrettd7655fr4n2y
       '@dnd-kit/sortable': 7.0.1_ighjjj6vulsdnb2lagbd2egmxy
@@ -598,7 +599,7 @@ packages:
       '@juggle/resize-observer': 3.4.0
       '@pind/designable-shared': 2.0.0-beta.3
 
-  /@pind/designable-formily-antd/2.0.0-beta.3_yxsvetqlzqmy3jrxx74ytmlygy:
+  /@pind/designable-formily-antd/2.0.0-beta.3_e5jyf7wyi3nwe7imwj2tukwmoq:
     resolution: {integrity: sha512-raBGupQydVAkxVrOnTK6IxWAD+TmcYU9vLwYyOB9QckJ3TqwJY/5xZRKF4ipmd1Hl1iELV/Cch063L5EMKcxvQ==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -615,7 +616,7 @@ packages:
       react-dom: '>=16.8.0'
       react-is: ^18.0.0
     dependencies:
-      '@formily/antd': 3.0.0-alpha.1_sqmd57glgqoi6azxpisrq3gwty
+      '@formily/antd': 3.0.0-alpha.2_sqmd57glgqoi6azxpisrq3gwty
       '@formily/core': 2.2.15
       '@formily/json-schema': 2.2.15_typescript@4.9.4
       '@formily/react': 2.2.15_shhpwlmtpypp5sfwuukigzy6se
@@ -623,7 +624,7 @@ packages:
       '@formily/reactive-react': 2.2.15_5og7ynw5b2cr7vshh5loaor5du
       '@formily/shared': 2.2.15
       '@pind/designable-core': 2.0.0-beta.3_bhojtfuhjan2nzh7evz4suiv3y
-      '@pind/designable-formily-setters': 2.0.0-beta.3_ixygb3jkskuhdkluaeokceixoq
+      '@pind/designable-formily-setters': 2.0.0-beta.3_fwyft55scfrowh4il2gvsuu2ke
       '@pind/designable-formily-transformer': 2.0.0-beta.3_nowufd3hh6yexse4l665zntjii
       '@pind/designable-react': 2.0.0-beta.3_rom5kajjwincygippk4jittfse
       '@types/react': 18.0.26
@@ -641,7 +642,7 @@ packages:
       - typescript
     dev: false
 
-  /@pind/designable-formily-setters/2.0.0-beta.3_ixygb3jkskuhdkluaeokceixoq:
+  /@pind/designable-formily-setters/2.0.0-beta.3_fwyft55scfrowh4il2gvsuu2ke:
     resolution: {integrity: sha512-QPEjzPjER3/nVAltwjwf6TzXB7hKr0JtSyMCtWtbrlAcggM9NnLUCVLtTeyVkAF+IWT7PmP2OS7GNbj+UxMT0A==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -659,7 +660,7 @@ packages:
       react-dom: ^18.0.0
       react-is: ^18.0.0
     dependencies:
-      '@formily/antd': 3.0.0-alpha.1_sqmd57glgqoi6azxpisrq3gwty
+      '@formily/antd': 3.0.0-alpha.2_sqmd57glgqoi6azxpisrq3gwty
       '@formily/core': 2.2.15
       '@formily/json-schema': 2.2.15_typescript@4.9.4
       '@formily/react': 2.2.15_shhpwlmtpypp5sfwuukigzy6se
@@ -669,7 +670,7 @@ packages:
       '@pind/designable-core': 2.0.0-beta.3_bhojtfuhjan2nzh7evz4suiv3y
       '@pind/designable-formily-transformer': 2.0.0-beta.3_nowufd3hh6yexse4l665zntjii
       '@pind/designable-react': 2.0.0-beta.3_rom5kajjwincygippk4jittfse
-      '@pind/designable-react-settings-form': 2.0.0-beta.3_dhsii7n7ln6xisd2767ozs4zia
+      '@pind/designable-react-settings-form': 2.0.0-beta.3_ue4dsmovkxbsc3xvjgq6lc4q24
       '@pind/designable-shared': 2.0.0-beta.3
       '@types/react': 18.0.26
       '@types/react-dom': 18.0.10
@@ -701,7 +702,7 @@ packages:
       - '@formily/path'
     dev: false
 
-  /@pind/designable-react-settings-form/2.0.0-beta.3_dhsii7n7ln6xisd2767ozs4zia:
+  /@pind/designable-react-settings-form/2.0.0-beta.3_ue4dsmovkxbsc3xvjgq6lc4q24:
     resolution: {integrity: sha512-bpbFTamhjgv8+PMStW6xaTWERgPsanGMgUmSQdhNb10H2KVLJReSmrE7rBNVZNqVeKZ+3XEEWj6F1So7w9yCJw==}
     engines: {npm: '>=3.0.0'}
     peerDependencies:
@@ -717,7 +718,7 @@ packages:
       react: ^18.0.0
     dependencies:
       '@babel/parser': 7.20.7
-      '@formily/antd': 3.0.0-alpha.1_sqmd57glgqoi6azxpisrq3gwty
+      '@formily/antd': 3.0.0-alpha.2_sqmd57glgqoi6azxpisrq3gwty
       '@formily/core': 2.2.15
       '@formily/grid': 2.2.15_typescript@4.9.4
       '@formily/react': 2.2.15_shhpwlmtpypp5sfwuukigzy6se
