@@ -1,5 +1,5 @@
 {
-  "name": "pind-designble",
+  "name": "pind-designable",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@formily/antd": "next",
+    "@formily/antd-v5": "^1.0.0",
     "@formily/core": "^2.2.16",
     "@formily/grid": "^2.2.16",
     "@formily/json-schema": "^2.2.16",
@@ -19,7 +19,7 @@
     "@formily/reactive-react": "^2.2.16",
     "@formily/shared": "^2.2.16",
     "@formily/validator": "^2.2.16",
-    "@pind/designable-react-settings-form": "^2.0.0-beta.4",
+    "@pind/designable-react-settings-form": "^2.0.0-beta.6",
     "@types/glob": "^7.2.0",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
@@ -36,12 +36,12 @@
   },
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
-    "@pind/designable-core": "^2.0.0-beta.4",
-    "@pind/designable-formily-antd": "^2.0.0-beta.4",
-    "@pind/designable-formily-setters": "^2.0.0-beta.4",
-    "@pind/designable-formily-transformer": "^2.0.0-beta.4",
-    "@pind/designable-react": "^2.0.0-beta.4",
-    "@pind/designable-shared": "^2.0.0-beta.4",
+    "@pind/designable-core": "^2.0.0-beta.6",
+    "@pind/designable-formily-antd": "^2.0.0-beta.6",
+    "@pind/designable-formily-setters": "^2.0.0-beta.6",
+    "@pind/designable-formily-transformer": "^2.0.0-beta.6",
+    "@pind/designable-react": "^2.0.0-beta.6",
+    "@pind/designable-shared": "^2.0.0-beta.6",
     "antd": "^5.1.1",
     "classnames": "^2.3.2",
     "dayjs": "^1.11.7",

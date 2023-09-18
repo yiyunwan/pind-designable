@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import basicSsl from "@vitejs/plugin-basic-ssl";
 import { Plugin as importToCDN, Options } from "vite-plugin-cdn-import";
-import { visualizer } from "rollup-plugin-visualizer";
 
 const modules: Options["modules"] = [
   {
@@ -98,7 +97,7 @@ const modules: Options["modules"] = [
     css: "dist/designable.react.umd.production.min.css",
   },
   {
-    name: "@formily/antd",
+    name: "@formily/antd-v5",
     var: "Formily.Antd",
     path: "dist/formily.antd.umd.production.js",
   },
@@ -114,7 +113,6 @@ const modules: Options["modules"] = [
 export default defineConfig({
   plugins: [
     react(),
-    visualizer(),
     basicSsl(),
     importToCDN({
       modules,
